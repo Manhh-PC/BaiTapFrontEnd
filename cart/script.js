@@ -331,8 +331,8 @@ document.addEventListener("DOMContentLoaded", async function () {
 
   // Xử lý thêm vào giỏ hàng trên trang index.html và trang sản phẩm
   document.addEventListener("click", async function (event) {
-    if (event.target.closest(".themVaoGio")) {
-      const button = event.target.closest(".themVaoGio");
+    if (event.target.closest(".themVaoGio, .themVaoGio-sp")) {
+      const button = event.target.closest(".themVaoGio, .themVaoGio-sp");
       showLoader();
       const quantity = quantityInput ? parseInt(quantityInput.value) || 1 : 1;
       const product = {
