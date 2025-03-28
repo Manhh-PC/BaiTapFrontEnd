@@ -1,0 +1,289 @@
+{
+  "users": [
+    {
+      "id": "9360",
+      "name": "Nguyễn Đức Mạnh - Admin",
+      "email": "admin@gmail.com",
+      "password": "1",
+      "cart": [],
+      "role": "admin",
+      "addressInfo": null,
+      "orders": []
+    },
+    {
+      "id": "32ag",
+      "name": "Manhh PC",
+      "email": "bluestacks2k6@gmail.com",
+      "password": "1",
+      "cart": [
+        {
+          "id": "MacBook Pro 14 inch, Màn hình Nano-texture, Ram 24GB, SSD 1TB Kèm sạc 96W",
+          "name": "MacBook Pro 14 inch, Màn hình Nano-texture, Ram 24GB, SSD 1TB Kèm sạc 96W",
+          "price": 54299000,
+          "image": "/img/apple/Mac-Book/MacBook Pro 14 inch-1.jpg",
+          "quantity": 1
+        },
+        {
+          "id": "Apple iPhone 16e 128GB Trắng",
+          "name": "Apple iPhone 16e 128GB Trắng",
+          "price": 16990000,
+          "image": "/img/apple/iPhone/Iphone16E-2.jpg",
+          "quantity": 1
+        }
+      ],
+      "role": "user",
+      "addressInfo": {
+        "fullName": "Nguyễn Đức Mạnh",
+        "phoneNumber": "0999888777",
+        "address": "Trường Đại Học Đại Nam",
+        "ward": "Phú Lãm",
+        "district": "Hà Đông",
+        "city": "Thành Phố Hà Nội"
+      },
+      "orders": [
+        {
+          "orderId": "order_1743072983112",
+          "items": [
+            {
+              "id": "  Router Wifi TP-Link AX55 Pro. Router Wi-Fi 6 AX3000 Multi-Gigabit với hai cổng 2.5G",
+              "name": "  Router Wifi TP-Link AX55 Pro. Router Wi-Fi 6 AX3000 Multi-Gigabit với hai cổng 2.5G",
+              "price": 1890000,
+              "image": "/img/TP-Link/AX55 Pro-1.jpg",
+              "quantity": 1
+            },
+            {
+              "id": "Điện thoại Apple iPhone 16e 128GB Trắng",
+              "name": "Điện thoại Apple iPhone 16e 128GB Trắng",
+              "price": 16999000,
+              "image": "/img/apple/iPhone/Iphone16E-2.jpg",
+              "quantity": 1
+            }
+          ],
+          "totalPrice": 18889000,
+          "status": "Hoàn tất",
+          "orderDate": "2025-03-27T10:56:23.112Z",
+          "message": "a"
+        },
+        {
+          "orderId": "order_1743073098796",
+          "items": [
+            {
+              "id": "Apple iPhone 16 Pro Max 512GB - Titan Sa Mạc",
+              "name": "Apple iPhone 16 Pro Max 512GB - Titan Sa Mạc",
+              "price": 40590000,
+              "image": "/img/apple/iphone-apple1.jpg",
+              "quantity": 1
+            }
+          ],
+          "totalPrice": 40590000,
+          "status": "Đã bị hủy",
+          "orderDate": "2025-03-27T10:58:18.796Z",
+          "message": "n"
+        },
+        {
+          "orderId": "order_1743080593821",
+          "items": [
+            {
+              "id": "Apple iPhone 16 Pro Max 512GB - Titan Sa Mạc",
+              "name": "Apple iPhone 16 Pro Max 512GB - Titan Sa Mạc",
+              "price": 40590000,
+              "image": "/img/apple/iphone-apple1.jpg",
+              "quantity": 1
+            }
+          ],
+          "totalPrice": 40590000,
+          "status": "Đã xác nhận",
+          "orderDate": "2025-03-27T13:03:13.821Z",
+          "message": "a"
+        },
+        {
+          "orderId": "order_1743082431247",
+          "items": [
+            {
+              "id": "Laptop Asus ROG Flow Z13 (2025) GZ302EA-RU080WS",
+              "name": "Laptop Asus ROG Flow Z13 (2025) GZ302EA-RU080WS",
+              "price": 77990000,
+              "image": "/img/asus/Laptop/Laptop-ROG Flow Z13-1.jpg",
+              "quantity": 1
+            },
+            {
+              "id": "Điện thoại Apple iPhone 16e 128GB Trắng",
+              "name": "Điện thoại Apple iPhone 16e 128GB Trắng",
+              "price": 16999000,
+              "image": "/img/apple/iPhone/Iphone16E-2.jpg",
+              "quantity": 7
+            },
+            {
+              "id": "Tủ lạnh LG French Door InstaView™ 530L màu đen LFB53BLMI",
+              "name": "Tủ lạnh LG French Door InstaView™ 530L màu đen LFB53BLMI",
+              "price": 25990000,
+              "image": "/img/lg/Tu-Lanh/Tủ lạnh LG French Door InstaView™ 530L màu đen LFB53BLMI-1.jpg",
+              "quantity": 1
+            }
+          ],
+          "totalPrice": 222973000,
+          "status": "Chờ xác nhận",
+          "orderDate": "2025-03-27T13:33:51.247Z",
+          "message": "321"
+        }
+      ]
+    },
+    {
+      "id": "cgte",
+      "name": "User 1",
+      "email": "a@gmail.com",
+      "password": "1",
+      "cart": [],
+      "role": "user"
+    },
+    {
+      "id": "z9o9",
+      "name": "tk2",
+      "email": "b@gmail.com",
+      "password": "1",
+      "cart": [],
+      "role": "user"
+    },
+    {
+      "id": "2l0w",
+      "name": "18-12",
+      "email": "c@gmail.com",
+      "password": "12",
+      "cart": [],
+      "role": "user"
+    },
+    {
+      "id": "64e2",
+      "name": "Anh Cam Biết Di Điện",
+      "email": "campuchia@gmail.com",
+      "password": "Manh",
+      "cart": [],
+      "role": "user"
+    },
+    {
+      "id": "mcgb",
+      "name": "em yêu",
+      "email": "123@123.123",
+      "password": "1",
+      "cart": [],
+      "role": "user"
+    },
+    {
+      "id": "xicm",
+      "name": "12",
+      "email": "ams@1.com",
+      "password": "a",
+      "cart": [],
+      "role": "user"
+    }
+  ],
+  "currentUser": {},
+  "cart": [],
+  "orders": [],
+  "products": [
+    {
+      "id": "product_1743099459017",
+      "image": "/img/asus/Laptop/Laptop-ROG Flow Z13-1.jpg",
+      "alt": "Laptop Asus",
+      "link": "#",
+      "name": "Laptop Asus ROG Flow Z13 (2025) GZ302EA-RU080WS",
+      "price": 77990000
+    },
+    {
+      "id": "product_1743099509499",
+      "image": "/img/lg/Tu-Lanh/Tủ lạnh LG French Door InstaView™ 530L màu đen LFB53BLMI-1.jpg",
+      "alt": "Tủ lạnh LG",
+      "link": "#",
+      "name": "Tủ lạnh LG French Door InstaView™ 530L màu đen LFB53BLMI",
+      "price": 25990000
+    },
+    {
+      "id": "product_1743099629160",
+      "image": "/img/logitech/Chuot-BanPhim/POP Icon Combo Logitech-1.webp",
+      "alt": "phím",
+      "link": "@",
+      "name": "POP Icon Combo Logitech",
+      "price": 2149000
+    },
+    {
+      "id": "product_1743099847421",
+      "image": "/img/apple/iPhone/Iphone16E-2.jpg",
+      "alt": "Apple iPhone 16e 128GB Trắng",
+      "link": "Apple/ip16e.html",
+      "name": "Apple iPhone 16e 128GB Trắng",
+      "price": 16990000
+    },
+    {
+      "id": "product_1743100101804",
+      "image": "/img/TP-Link/AX55 Pro-1.jpg",
+      "alt": "Router Wifi TP-Link AX55 Pro",
+      "link": "#",
+      "name": "Router Wifi TP-Link AX55 Pro. Router Wi-Fi 6 AX3000 Multi-Gigabit với hai cổng 2.5G",
+      "price": 1890000
+    },
+    {
+      "id": "product_1743100174310",
+      "image": "/img/lg/TV/TV LG QNED 75QNED80TSA-1.avif",
+      "alt": "TV LG QNED 75QNED80TSA",
+      "link": "#",
+      "name": "TV LG QNED 75QNED80TSA",
+      "price": 30590000
+    },
+    {
+      "id": "product_1743100224751",
+      "image": "/img/samsung/tivi-samsung6.webp",
+      "alt": "TV Samsung",
+      "link": "#",
+      "name": "Samsung 50 Inch QLED QE1D 4K Smart TV (2024)",
+      "price": 11390000
+    },
+    {
+      "id": "product_1743100269796",
+      "image": "/img/apple/iphone-apple1.jpg",
+      "alt": "16 Pro Max 512GB",
+      "link": "/Apple/iphone-apple.html",
+      "name": "Apple iPhone 16 Pro Max 512GB - Titan Sa Mạc",
+      "price": 40590000
+    },
+    {
+      "id": "product_1743100341446",
+      "image": "/img/logitech/cam-lgt.webp",
+      "alt": "Webcam Logitech Full HD Brio 500",
+      "link": "#",
+      "name": "Webcam Logitech Full HD Brio 500 - Chỉnh sáng, lấy khung hình,Show  mode, Mic kép giảm ồn",
+      "price": 2599000
+    },
+    {
+      "id": "product_1743100478338",
+      "image": "/img/apple/Mac-Book/MacBook Pro 14 inch-1.jpg",
+      "alt": "MacBook Pro 14 inch",
+      "link": "#",
+      "name": "MacBook Pro 14 inch, Màn hình Nano-texture, Ram 24GB, SSD 1TB Kèm sạc 96W",
+      "price": 54299000
+    },
+    {
+      "id": "product_1743100516265",
+      "image": "/img/samsung/maygiat-samsung1.webp",
+      "alt": "Máy giặt thông minh Samsung AI",
+      "link": "#",
+      "name": "Máy giặt thông minh Samsung AI EcoBubble 9kg (WW90TP44DSB)",
+      "price": 10390000
+    },
+    {
+      "id": "product_1743100941740",
+      "image": "/img/samsung/s25u-1.png\" alt=\"S25 Ultra",
+      "alt": "S25 Ultra",
+      "link": "/samsung/s25u-samsung.html",
+      "name": "Samsung Galaxy S25 Ultra Xanh Titan 512GB",
+      "price": 37090000
+    },
+    {
+      "id": "product_1743148105867",
+      "image": "/img/TP-Link/TL-WR844N(EU)2.0.jpg",
+      "alt": "Router wifi",
+      "link": "#",
+      "name": "Router Wi-Fi TL-WR844N Tốc Độ 300 Mbps",
+      "price": 499000
+    }
+  ]
+}
