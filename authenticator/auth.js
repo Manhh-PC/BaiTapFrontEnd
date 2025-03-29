@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", async function () {
-  const API_URL = "https://xcxtgl-8080.csb.app";
+  const API_URL = "https://ttjwcy-8080.csb.app";
 
   function showLoader() {
     const loader = document.querySelector(".cssload-main");
