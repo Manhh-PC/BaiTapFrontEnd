@@ -1,4 +1,4 @@
-const API_URL = "https://xcxtgl-8080.csb.app";
+const API_URL = "https://ttjwcy-8080.csb.app";
 
 // Hàm hiển thị loader
 function showLoader() {
