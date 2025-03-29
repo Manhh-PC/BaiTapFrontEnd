@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="../ico/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="../ico/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="../ico/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="../ico/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="../ico/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="../ico/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="../ico/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="../ico/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../ico/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="../ico/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../ico/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="../ico/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../ico/favicon-16x16.png"
+    />
+    <link rel="manifest" href="../ico/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="../ico/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="./account.css" />
+    <link rel="stylesheet" href="../css/background.css" />
+    <script src="../authenticator/jquery.js"></script>
+    <title>Trang quản trị | Admin</title>
+  </head>
+  <body>
+    <div class="menu">
+      <div class="demo1" id="dangNhap"></div>
+
+      <div class="cssload-main">
+        <div class="cssload-heart">
+          <span class="cssload-heartL"></span>
+          <span class="cssload-heartR"></span>
+          <span class="cssload-square"></span>
+        </div>
+        <div class="cssload-shadow"></div>
+      </div>
+
+      <div class="demo2">
+        <div class="danhMuc">
+          <a href="../index.html">
+            <button class="button-menu">
+              <i class="fa-solid fa-house"></i>
+              <span class="text"> Trang Chủ </span>
+            </button>
+          </a>
+        </div>
+        <div class="danhMuc">
+          <a href="../home/introduce.html">
+            <button class="button-menu">
+              <i class="fa-solid fa-info"></i>
+              <span class="text"> Giới thiệu </span>
+            </button>
+          </a>
+        </div>
+        <div class="danhMuc">
+          <button class="button-menu">
+            <i class="fa-solid fa-store"></i>
+            <span class="text"> Sản phẩm </span>
+          </button>
+        </div>
+        <div class="danhMuc">
+          <button class="button-menu">
+            <i class="fa-solid fa-phone-volume"></i>
+            <span class="text"> Liên hệ </span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="khoangCach"></div>
+    <div class="menuQuanLi">
+      <div class="DanhMucQuanLi">
+        <button class="button-quanLi" onclick="quanLiUser()">
+          <i class="fa-solid fa-users"></i>
+          <p>Quản lí user</p>
+        </button>
+      </div>
+      <div class="DanhMucQuanLi">
+        <button class="button-quanLi" onclick="quanLiChoDuyet()">
+          <i class="fa-solid fa-hourglass-half"></i>
+          <p>Đơn hàng chờ duyệt</p>
+        </button>
+      </div>
+      <div class="DanhMucQuanLi">
+        <button class="button-quanLi" onclick="quanLiDaDuyet()">
+          <i class="fa-solid fa-calendar-check"></i>
+          <p>Đơn hàng đã duyệt</p>
+        </button>
+      </div>
+      <div class="DanhMucQuanLi">
+        <button class="button-quanLi" onclick="danhSachHuyDon()">
+          <i class="fa-solid fa-calendar-xmark"></i>
+          <p>Đơn hàng đã hủy</p>
+        </button>
+      </div>
+      <div class="DanhMucQuanLi" onclick="quanLiHuyDon()">
+        <button class="button-quanLi" onclick="donHangHoanTat()">
+          <i class="fa-solid fa-circle-check"></i>
+          <p>Đơn hàng đã hoàn tất</p>
+        </button>
+      </div>
+      <div class="DanhMucQuanLi">
+        <button class="button-quanLi" onclick="sanPhamTrangChu()">
+          <i class="fa-solid fa-shop"></i>
+          <p>Sản phẩm trên trang chủ</p>
+        </button>
+      </div>
+      <div class="DanhMucQuanLi">
+        <button
+          class="button-quanLi"
+          id="addProduct"
+          onclick="sanPhamTrangChu()"
+        >
+          <i class="fa-solid fa-cart-plus"></i>
+          <p>Thêm sản phẩm mới</p>
+        </button>
+      </div>
+    </div>
+    <div class="container-all-danhMuc">
+      <div class="container-user-admin">
+        <h1 class="admin-text">Danh sách các user trên hệ thống</h1>
+        <div class="container-user" id="userContainer">
+          <!-- Khu vực hiển thị user -->
+        </div>
+      </div>
+
+      <div class="danhSachChoDuyet">
+        <h1 class="admin-text">Danh sách các đơn hàng chờ duyệt</h1>
+        <div class="grid-div">
+          <!-- Khu vực hiển thị đơn hàng chờ duyệt -->
+        </div>
+        <p class="empty-msg" id="emptyPending">
+          Không có đơn hàng nào đang chờ duyệt
+        </p>
+      </div>
+
+      <div class="danhSachDaDuyet">
+        <h1 class="admin-text">Danh sách các đơn hàng đã duyệt</h1>
+        <div class="grid-div">
+          <!-- Khu vực hiển thị đơn hàng đã duyệt -->
+        </div>
+        <p class="empty-msg" id="emptyApproved">
+          Không có đơn hàng nào đã duyệt !
+        </p>
+      </div>
+
+      <div class="danhSachHuyDon">
+        <h1 class="admin-text">Danh sách các đơn hàng bị hủy</h1>
+        <div class="grid-div">
+          <!-- Khu vực hiển thị đơn hàng bị hủy -->
+        </div>
+        <p class="empty-msg" id="emptyCanceled">Không có đơn hàng nào bị hủy</p>
+      </div>
+
+      <div class="danhSachHoanTat">
+        <h1 class="admin-text">Danh sách các đơn hàng đã hoàn tất</h1>
+        <div class="grid-div">
+          <!-- Khu vực hiển thị đơn hàng đã hoàn tất -->
+        </div>
+        <p class="empty-msg" id="emptyCompleted">Không có đơn hàng nào !</p>
+      </div>
+
+      <div class="sanPhamTrangChu">
+        <h1 class="admin-text">Danh sách các sản phẩm</h1>
+
+        <div class="container-popUp">
+          <div class="popUp-edit">
+            <span id="close-popUp">✕</span>
+            <br />
+            <form>
+              <div class="hang_input">
+                <label for="imageLink">Link hình ảnh</label>
+                <input type="text" placeholder="Link ảnh" />
+              </div>
+              <div class="hang_input">
+                <label for="imageDesc">Mô tả hình ảnh</label>
+                <input type="text" placeholder="Mô tả hình ảnh" />
+              </div>
+              <div class="hang_input">
+                <label for="detailLink">Link trang chi tiết</label>
+                <input type="text" placeholder="Link trang chi tiết" />
+              </div>
+              <div class="hang_input">
+                <label for="productName">Tên sản phẩm</label>
+                <input type="text" placeholder="Tên sản phẩm" />
+              </div>
+              <div class="hang_input">
+                <label for="productPrice">Giá sản phẩm</label>
+                <input type="text" placeholder="Giá sản phẩm" />
+              </div>
+              <button type="submit" class="button-API">Lưu</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="container-spHone">
+          <!-- Khu vực hiển thị sản phẩm -->
+        </div>
+      </div>
+    </div>
+
+    <div id="orderModal" class="modal">
+      <div class="modal-content">
+        <span class="close">✕</span>
+        <h3>Chi Tiết Đơn Hàng</h3>
+        <div class="modal-sp">
+          <div class="modal-head">
+            <div class="sp-modal">
+              <b>Sản phẩm</b>
+            </div>
+            <div class="sl-modal">
+              <b>Số lượng</b>
+            </div>
+            <div class="gia-modal">
+              <b>Giá</b>
+            </div>
+          </div>
+
+          <div class="modal-body">
+            <!-- Khu vực hiển thị chi tiết sản phẩm -->
+          </div>
+          <h4 id="totalPrice-admin">Tổng tiền: 0 VND</h4>
+        </div>
+      </div>
+    </div>
+    <script src="../cart/script.js"></script>
+    <script src="../authenticator/auth.js"></script>
+    <script src="./admin.js"></script>
+  </body>
+</html>
